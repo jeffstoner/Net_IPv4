@@ -20,11 +20,11 @@ validity.</description>
   <email>fa@php.net</email>
   <active>yes</active>
  </developer>
- <date>2014-03-24</date>
- <time>00:18:09</time>
+ <date>2015-12-11</date>
+ <time>15:00:00</time>
  <version>
-  <release>1.4.0</release>
-  <api>1.4.0</api>
+  <release>2.0.0</release>
+  <api>2.0.0</api>
  </version>
  <stability>
   <release>stable</release>
@@ -36,7 +36,7 @@ Require php5
  </notes>
  <contents>
   <dir baseinstalldir="/" name="/">
-   <file baseinstalldir="/" md5sum="84ee601f43c82cd936e1e1d7df9d74a8" name="Net/IPv4.php" role="php" />
+   <file baseinstalldir="/" md5sum="99648bb64a4582484ead68d8ba602e4f" name="Net/IPv4.php" role="php" />
    <file baseinstalldir="/" md5sum="0accb1a9d83bf5191765e13bea389342" name="tests/AllTests.php" role="test" />
    <file baseinstalldir="/" md5sum="91e74f430b56c22e5830ac59cb504265" name="tests/IPv4Test.php" role="test" />
    <file baseinstalldir="/" md5sum="13e92acbc70983f7972c0286211ffd46" name="tests/MyIPv4.php" role="test" />
@@ -215,6 +215,15 @@ QA Release
    <license>PHP License 3.01</license>
    <notes>
 Require php5
+   </notes>
+  </release>
+  <release>
+   <version><release>2.0.0</release><api>2.0.0</api></version>
+   <stability><release>stable</release><api>stable</api></stability>
+   <date>2015-12-11</date>
+   <license>PHP License 3.01</license>
+   <notes>
+Converted to use Exceptions instead of using PEAR::isError and PEAR::raiseError. Breaks backward compatability.
    </notes>
   </release>
  </changelog>
